@@ -1,5 +1,5 @@
 class EngineersController < ApplicationController
-  before_action :set_engineer, only: [:show, :edit, :update, :destroy :index, :new, :create]
+  before_action :set_engineer, only: [:show, :edit, :update, :destroy, :index, :new, :create]
 
   # GET /engineers
   # GET /engineers.json
