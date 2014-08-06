@@ -25,7 +25,7 @@
         <td><%=l engineer.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                      edit_engineer_path(engineer), :class => 'btn btn-mini' %>
+                      dit_proyect_engineer_path(@proyect,engineer), :class => 'btn btn-mini' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                       engineer_path(engineer),
                       :method => :delete,
